@@ -1,0 +1,73 @@
+Bonus
+-----
+
+- Animation Terre accueil
+- Text-shadow néons accueil
+- Preload images sur page d'accueil
+- Inclure carte position bateaux
+- Compte réseaux sociaux pour chaque bateau ?
+
+
+À faire
+-------
+
+- Héberger lesquais.voyage de manière pérenne
+- Limites supérieure et inférieure des cartes postales
+- Responsive
+	- carte postale
+	- index
+	- meta
+	- mots
+- Magnétisme défilement sur la carte postale
+- Éviter FOUC cartes postales -> placeholder avec social card ?
+- Centrer images carte postale plutôt que caler en haut ?
+- Icône retour à la page d'accueil : stylisation de la page d'accueil -> Jean
+	- utiliser comme favicon
+	- remplacer les croix de fermeture
+- Cross-browser
+- Optimisation performances
+	- diminuer taille images diaporamas
+- Légende diaporama tout en haut Australien -> Suzanne
+- Espace entre milliers ?
+- Casse incohérente pour les noms des bateaux (Australien : capitalisé ; ? : tout en majuscules)
+
+
+Traité
+------
+
+- Diaporama sans légende (ex : Amazone) : pleine page ou rajouter légende ? -> Suzanne, légende rajoutée.
+- Inclure images originales comme archives ZIP (une version low-res une version hi-res) dans partie pédagogique -> Suzanne
+- Responsive : corps
+- Interlignage unique
+- Retour à la page d'accueil depuis les bateaux => icône Terre
+- Enlever fond diaporama
+- Enlever vignettes diaporama
+- Interlignage autour diaporama
+- Transcriptions images -> apparition au survol
+- Déployer lesquais.voyage
+- Ajouter bloc {% legende %}
+- Enlever légendes de source
+- Changer légende de source dans le bloc {% legende %}
+- Retour à la page d'accueil depuis les bateaux
+- Habillage qui/quoi/comment
+- Cartes partage réseaux sociaux bateaux/index
+- Transparence des cartes postales
+- Carte géographique Australien et Himalaya en plein écran
+- Deux images pour diaporama : aperçu/fullscreen
+- Décrire contexte dans "quoi" -> Suzanne
+- Uniformiser taille des diaporamas
+- Blanc sur jaune phocéen illisible
+- Qualité carte géographique Australie
+- Identifier images en doublon out_ / fullscreen
+- Diaporama en boucle
+- Pourquoi -> Prolongements, en haut à droite
+- Liens en mode fichier -> impossible car certains fichiers sous un dossier mais pas tous
+- Navigation entre mots
+- Diminuer taille terre dans l'index
+- Alignement légende face aux diaporamas quand il y a deux diaporamas d'affilée (Météore, Australien…)
+- Marge des titres sur Quoi
+	- Alignement diaporama
+	- Marge supérieure après diaporama
+- Guillemets françaises
+- Séparer mots sur index
+- Carte réseaux sociaux metas/words

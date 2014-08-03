@@ -1,0 +1,50 @@
+body {
+	color: black;
+	background-color: rgb(219, 204, 29);
+	background-color: rgba(219, 204, 29, 0.9);
+	box-sizing: border-box;
+	min-height: 100%;
+	padding: 2em;
+}
+
+nav {
+	color: white;
+	margin-bottom: 6em;
+	font-weight: bold;
+}
+
+nav, h1 {
+	letter-spacing: .12em;
+}
+
+h1 {
+	font-size: 800%;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+}
+
+h2, h3 {
+	font-weight: normal;
+}
+
+p + ul {
+	margin-top: -1em;
+}
+
+.legend p:first-child {
+	margin-top: .3em;
+}
+
+.fotorama {
+	margin-bottom: 2em;
+}
+
+
+#prolongements h1 {
+	font-size: 620%;
+}

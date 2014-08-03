@@ -1,0 +1,128 @@
+body {
+	font-weight: bold;
+	height: 100%;
+	position: relative;
+	max-width: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#meta, #words, #prolongements {
+	letter-spacing: .18em;
+}
+
+#meta, #prolongements {
+	color: rgb(82, 82, 26);
+
+	font-size: 70%;
+
+	position: absolute;
+	line-height: 1.2;
+	top: 1em;
+}
+
+#meta {
+	left: 2em;
+	margin-top: 0;
+}
+
+#prolongements {
+	right: 2em;
+}
+
+#meta::after {
+	content: '?';
+
+	color: rgb(219, 204, 29);
+	font-size: 200%;
+	position: absolute;
+	left: 2.8em;
+	top: .3em;
+}
+
+.boats {
+	-webkit-transform:	rotate(90deg);
+	-moz-transform:		rotate(90deg);
+	-o-transform:		rotate(90deg);
+	-ms-transform:		rotate(90deg);
+}
+
+.boats li {
+	margin-bottom: 1em;
+}
+
+.boats li:last-child {
+	margin-bottom: 0;
+}
+
+#boatsRight {
+	position: absolute;
+	right: -6em;
+	top: 12.2em;
+}
+
+#boatsLeft {
+	position: absolute;
+	left: .2em;
+	top: 5em;
+}
+
+#words {
+	width: 100%;
+	color: rgb(235, 234, 152);
+	position: absolute;
+	bottom: 1em;
+}
+
+#words li {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+
+@media (max-width: 30em) {	/* 9 boat names + their margin + safety */
+	#boatsRight {
+		right: -8em;
+		top: 12.9em;
+	}
+
+	#boatsLeft {
+		left: -2em;
+	}
+	.boats li {
+		margin-bottom: .5em;
+	}
+
+	#words li {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	#meta, #meta li, #prolongements {
+		display: inline-block;
+		margin-right: 1em;
+		font-size: 100%;
+	}
+
+	#prolongements {
+		visibility: hidden;
+	}
+
+	#prolongements::after {
+		content: '+';
+		visibility: visible;
+	}
+
+	#meta::after {
+		display: none;
+	}
+}

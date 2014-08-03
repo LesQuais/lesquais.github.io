@@ -1,0 +1,110 @@
+html {
+	background-image: none;
+}
+
+strong {
+	color: black;
+	font-weight: normal;
+}
+
+#below strong {
+	color: white;
+}
+
+#under, #over {
+	z-index: -1;
+	width: 100%;
+	left: 0;
+}
+
+#over {
+	position: fixed;	/* not set in CSS for #under for degradability */
+	top: 0;
+}
+
+nav {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	margin: 0;
+	padding: .5em;
+	font-weight: bold;
+	display: block;
+
+	margin-bottom: -.5em;
+}
+
+nav h1 {
+	display: inline;
+}
+
+h1, h2, h3, h4, p, blockquote {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2, h3, h4 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+#home {
+	float: right;
+}
+
+#prev, #next {
+	font-size: 120%;
+	margin-top: -.15em;
+	font-weight: normal;
+}
+
+#home img {
+	color: white;
+	height: 1em;
+}
+
+#spacer {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+#below, nav {
+	background-color: black;
+}
+
+#above, #below {
+	position: relative;
+	padding: 2em;
+	z-index: 2;
+}
+
+.legend {
+	padding-top: .3em;
+	font-size: 80%;
+	color: white;
+}
+
+
+@media (max-width: 48em) {	/* longest name is 20 chars, + 2 for nav, + 2 for spaces, * 2 for 50% default width, + 10% uncertainty */
+
+	nav {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	nav, h1 {
+		font-weight: normal;
+	}
+
+	.name {
+		letter-spacing: 0;
+	}
+
+	#above, #below {
+		padding: 0;
+	}
+}
