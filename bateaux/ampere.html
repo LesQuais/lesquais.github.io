@@ -5,14 +5,48 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<title>Ampère — Les quais</title>
 		<meta name="viewport" content="width=device-width"/>
-		<meta name="description" content="Une œuvre de Suzanne Hetzel et Jean Schneider pour le collège Jean Jaurés à La Ciotat (Bouches-du-Rhône)."/>
+		<meta name="description" content="Une œuvre de Suzanne Hetzel et Jean Schneider sur les chantiers navals de La Ciotat (PACA)."/>
 
 		<link rel="stylesheet" href="../css/main.css"/>
 		<link rel="stylesheet" href="../fonts/stylesheet.css"/>
+		<link rel="stylesheet" href="../css/boat.css">
+		
 		<link rel="stylesheet" href="../css/lib/fotorama.min.css" />
 
 		
+		<style>
+			#below, h1 {
+				color: rgb(81, 166, 148);
+			}
+
+			#above, #right:hover, #left:hover {
+				background-color: rgb(81, 166, 148);
+			}
+
+			
+		</style>
 		
+
+		
+		
+
+		<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+		<meta name="apple-mobile-web-app-title" content="Les quais">
+		<link rel="icon" type="image/png" href="/favicons/favicon-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/favicons/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+		<meta name="application-name" content="Les quais">
 
 		<meta name="twitter:card" content="summary_large_image"/>
 		<meta property="og:type" content="website"/>
@@ -20,8 +54,8 @@
 		<meta name="twitter:title" content="Les quais : Ampère"/>
 		<meta property="og:title" content="Les quais : Ampère"/>
 
-		<meta name="twitter:description" content="Une œuvre de Suzanne Hetzel et Jean Schneider pour le collège Jean Jaurés à La Ciotat (Bouches-du-Rhône)."/>
-		<meta property="og:description" content="Une œuvre de Suzanne Hetzel et Jean Schneider pour le collège Jean Jaurés à La Ciotat (Bouches-du-Rhône)."/>
+		<meta name="twitter:description" content="Une œuvre de Suzanne Hetzel et Jean Schneider sur les chantiers navals de La Ciotat (PACA)."/>
+		<meta property="og:description" content="Une œuvre de Suzanne Hetzel et Jean Schneider sur les chantiers navals de La Ciotat (PACA)."/>
 
 		<meta name="twitter:image:src" content="http://lesquais.mattischneider.fr/images/cards/ampere.jpeg"/>
 		<meta property="og:image" content="http://lesquais.mattischneider.fr/images/cards/ampere.jpeg"/>
@@ -32,23 +66,10 @@
 		<meta name="twitter:site" content="@matti_sg"/>
 	</head>
 	<body>
-		<link rel="stylesheet" type="text/css" href="../css/boat.css">
-
-<style>
-	#below, h1 {
-		color: rgb(81, 166, 148);
-	}
-
-	#above, #right:hover, #left:hover {
-		background-color: rgb(81, 166, 148);
-	}
-
-</style>
-
-
+		
 
 <div id="above">
-<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><img src="../images/diaporamas/ampere/mesure/homme.jpg" title="" data-caption="" /><a href="../images/diaporamas/ampere/mesure/out_milli.jpg" data-full="../images/diaporamas/ampere/mesure/milli.jpg" title="" data-caption=""></a>&gt;</div>
+<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><a href="../images/diaporamas/ampere/mesure/homme.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/mesure/out_milli.jpg" data-full="../images/diaporamas/ampere/mesure/milli.jpg" title="" data-caption=""></a>&gt;</div>
 
 <div class="legend">
 <p>L’ampère est l’unité de mesure de l’intensité du courant électrique. Cette unité doit son nom à André-Marie Ampère, mathématicien, physicien, chimiste et philosophe français du 18ᵉ siècle. Ses travaux fondent l’électrodynamique et influencent considérablement la physique du 19ᵉ siècle. Le nom d’Ampère est celui d’un des douze savants inscrits sur la Tour Eiffel.</p>
@@ -63,8 +84,24 @@
 
 <div id="spacer">
 	
-		<img id="under" src="../images/backgrounds/ampere.jpg" alt="Ampère (objet)" />
-<img id="over" src="../images/boats/ampere.png" alt="Ampère (bateau)" />
+		<picture>
+    <source srcset="/images/backgrounds/ampere-768by512-97052e.jpg" media="(max-width: 768px)">
+    <source srcset="/images/backgrounds/ampere-1024by683-97052e.jpg" media="(max-width: 1024px)">
+    <source srcset="/images/backgrounds/ampere-2880by1920-97052e.jpg" media="(min-width: 1440px)">
+    <source srcset="/images/backgrounds/ampere-1440by960-97052e.jpg" media="(min-width: 1280px)">
+    <source srcset="/images/backgrounds/ampere-1280by854-97052e.jpg">
+    <img src="/images/backgrounds/ampere-1280by854-97052e.jpg" alt="Ampère (objet)" id="under" width="100%" height="100%" >
+  </picture>
+
+<picture>
+    <source srcset="/images/boats/ampere-768by512-17f0fb.png" media="(max-width: 768px)">
+    <source srcset="/images/boats/ampere-1024by683-17f0fb.png" media="(max-width: 1024px)">
+    <source srcset="/images/boats/ampere-2880by1920-17f0fb.png" media="(min-width: 1440px)">
+    <source srcset="/images/boats/ampere-1440by960-17f0fb.png" media="(min-width: 1280px)">
+    <source srcset="/images/boats/ampere-1280by853-17f0fb.png">
+    <img src="/images/boats/ampere-1280by853-17f0fb.png" alt="Ampère (bateau)" id="over" width="100%" height="100%" >
+  </picture>
+
 
 	
 
@@ -77,6 +114,14 @@
 	</nav>
 </div>
 
+<script type="text/javascript">
+	// inline to avoid FOUC
+	var spacer = document.getElementById('spacer');
+
+	spacer.style.height = Math.min(window.innerWidth * 3 / 4, window.innerHeight) + 'px';
+	window.scrollTo(0, spacer.offsetTop);
+</script>
+
 <div id="below">
 	
 <p>Ampère est un câblier et le 155ᵉ navire construit à La Ciotat.</p>
@@ -85,7 +130,7 @@
 
 <p>Lancement. Fait rare, le navire refusa de glisser après sa libération. Il glissa tout seul quelques heures plus tard.</p>
 
-<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><img src="../images/diaporamas/ampere/navireAmp/construction.jpg" title="" data-caption="" /><a href="../images/diaporamas/ampere/navireAmp/out_menuAmp.jpg" data-full="../images/diaporamas/ampere/navireAmp/menuAmp.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/navireAmp/navire1.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/navireAmp/out_navire2.jpg" data-full="../images/diaporamas/ampere/navireAmp/navire2.jpg" title="" data-caption=""></a>&gt;</div>
+<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><a href="../images/diaporamas/ampere/navireAmp/construction.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/navireAmp/out_menuAmp.jpg" data-full="../images/diaporamas/ampere/navireAmp/menuAmp.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/navireAmp/navire1.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/navireAmp/out_navire2.jpg" data-full="../images/diaporamas/ampere/navireAmp/navire2.jpg" title="" data-caption=""></a>&gt;</div>
 
 <div class="legend">
 <p>L’Ampère sur la cale de construction, puis un lancement avec foie gras, croustade d’aiguillettes de caneton et grands vins au menu !!</p>
@@ -93,7 +138,7 @@
 <p>Photographies et document : archives du Musée Ciotaden, La Ciotat.</p>
 </div>
 
-<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><img src="../images/diaporamas/ampere/activite/out_article.jpg" data-full="../images/diaporamas/ampere/activite/article.jpg" title="" data-caption="" /><a href="../images/diaporamas/ampere/activite/rond.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/activite/out_cable.jpg" data-full="../images/diaporamas/ampere/activite/cable.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/activite/out_cartecable.jpg" data-full="../images/diaporamas/ampere/activite/cartecable.jpg" title="" data-caption=""></a>&gt;</div>
+<div class="fotorama" data-nav="none" data-allowfullscreen="native" data-fit="scaledown" data-transition="slide" data-loop="true" data-width="100%" data-maxheight="100%"><a href="../images/diaporamas/ampere/activite/out_article.jpg" data-full="../images/diaporamas/ampere/activite/article.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/activite/rond.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/activite/out_cable.jpg" data-full="../images/diaporamas/ampere/activite/cable.jpg" title="" data-caption=""></a><a href="../images/diaporamas/ampere/activite/out_cartecable.jpg" data-full="../images/diaporamas/ampere/activite/cartecable.jpg" title="" data-caption=""></a>&gt;</div>
 
 <div class="legend">
 <p>Ces images montrent différentes activités sur un câblier et une carte du réseau des câbles français et étrangers, qui sillonnent les fonds de la Méditerranée occidentale, et qui se déroulent vers les fonds atlantiques.</p>
@@ -114,7 +159,7 @@
 
 		<script src="../scripts/lib/jquery-1.11.min.js"></script>
 		<script src="../scripts/lib/fotorama.min.js"></script>
-
+		<script async src="../scripts/lib/picturefill.min.js"></script>
 		<script async defer src="../scripts/addTargetBlank.js"></script>
 	</body>
 </html>
